@@ -1,0 +1,22 @@
+{
+  "name": "agave-nv-coming-soon",
+  "version": "1.0.0",
+  "description": "A modern coming soon website for Agave NV",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "./deploy.sh"
+  },
+  "keywords": [
+    "coming-soon",
+    "static-website",
+    "azure",
+    "responsive"
+  ],
+  "author": "Agave NV",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
